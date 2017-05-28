@@ -1,0 +1,103 @@
+/* General styles START */
+/* dodanie stylu fontu dla całej strony */
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a; 
+    margin: 0;
+}
+
+a {
+    transition: all .3;
+}
+/* General styles START */
+
+/* main nav styles START */
+
+nav#menu {
+    background-color: #fff;
+    background-size: 100%;
+   
+}
+
+nav#menu ul {
+    margin: 0;
+    text-align: right;
+
+}
+
+nav#menu > ul > li.menu-item {
+    display:inline-block;
+    padding: 25px;   
+}
+
+nav#menu > ul > li.menu-item a{
+    text-decoration: none;
+    color: #1ac056 ;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+nav#menu > ul > li.menu-item a:hover {
+    color: #291f1a;  
+}
+
+/* main nav styles STOP */
+
+/*header style start*/
+header#main-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    position: relative;
+    text-align: center;
+}
+
+header#main-header img {
+    width: 100%;
+}
+ 
+header#main-header h1 {
+    font-size: 80px;
+    font-weight: 400;
+    color:#fff;
+    position: absolute;
+    top: 40%;
+    left:35%;     
+}
+
+header#main-header h1 span{
+    padding: 10px;
+    font-size: 80px;
+    font-weight: 700;
+    color:#1ac056; 
+}
+
+header#main-header h2 {
+    font-size: 30px;
+     position: absolute;
+    top: 60%;
+    left:35%;
+}
+/*header style stop*/
+
+/* section about start */
+section {
+    background-color: #f9fcfe;
+}
+
+section .col-1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+section .col-2 {
+    width: 50%;
+    float: left;
+}
+
+/* section about start */
