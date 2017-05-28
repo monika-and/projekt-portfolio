@@ -11,8 +11,28 @@ body {
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+
 a {
     transition: all .3;
+}
+
+span {
+    color:#1ac056;
+    font-weight: 400;       
+}
+
+section {
+    padding: 30px 80px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
 }
 /* General styles START */
 
@@ -20,8 +40,9 @@ a {
 
 nav#menu {
     background-color: #fff;
-    background-size: 100%;
-   
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 nav#menu ul {
@@ -49,7 +70,40 @@ nav#menu > ul > li.menu-item a:hover {
 /* main nav styles STOP */
 
 /*header style start*/
-header#main-header {
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+#main-header .header-caption {
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-header .header-caption h1 {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+
+/* mój kod
+#main-header {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
     position: relative;
@@ -79,14 +133,64 @@ header#main-header h1 span{
 header#main-header h2 {
     font-size: 30px;
      position: absolute;
+    font-weight: 300;
     top: 60%;
     left:35%;
 }
+*/
+
 /*header style stop*/
 
+
+
 /* section about start */
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden; /*floating może spowodować przepełnienie kokntenera - wyrównuje do elementu bez float */
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+#about figure {
+    margin: 0;
+    text-align: center;
+}
+
+#about figure img{
+    max-width: 100%;
+    max-height: 350px;
+    border: 10px solid #fff;
+    border-radius: 10px; /* maksymalny radius nie może przekraczać szerokości ramki bo zacznie zaokrąglać zdj */
+}
+
+#about div p {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+#skills {
+    text-align: center;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#skills figure {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+
 section {
     background-color: #f9fcfe;
+    border-bottom: 3px solid;
+}
+
+section div > img {
+    width: 50%;
+    border: 5px solid #fff;
 }
 
 section .col-1 {
@@ -100,4 +204,17 @@ section .col-2 {
     float: left;
 }
 
+section h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+section h3 span{
+    padding: 10px;
+    color:#1ac056; 
+}
+
+
 /* section about start */
+
+/* section skills about */
