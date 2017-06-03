@@ -229,30 +229,94 @@ nav#menu > ul > li.menu-item a:hover {
 #contact {
     background-color:#213b50;
     color: #fff;
-    height: 400px;
+    overflow: hidden;
 }
 
-#contact #contact-header h2 {
-    text-align: left;
-}
-
-#contact .contact-section {
+#contact .contact-data {
     width: 50%;
     float: left;
 }
 
-#contact .contact-section #mail {
-   text-decoration-line: underline;
+#contact .contact-data h2 {
+    text-align: left;
+    font-size: 38px;
 }
 
-#contact-form {
+#contact .contact-data address {
+    font-style: normal;
+    margin 72px 0;
+    line-height: 25px;
+}
+
+#contact .contact-data address a {
+    color: #1ac085;
+}
+
+#contact .contact-data .contact-social-icons a {
     display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+#contact .contact-data .contact-social-icons a:hover {
+    color: #213b50;
+    border: 1px solid #213b50;
+    background-color: #fff;
+}
+
+#contact .contact-form {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+#contact .contact-form form input,
+#contact .contact-form form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #2b4a64;
+    border: #2b4a64 0px;
+    color: #fff;
+}
+    
+    #contact .contact-form form input:focus,
+#contact .contact-form form textarea:focus {
+    background-color: #426684;
+}
+
+
+#contact .contact-form input, textarea {
+    color: 4e708c;
+}
+
+#contact .contact-form input[type="submit"] {
+    background-color: #1ac085;
+    color: #fff;
+   width: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:  15px 30px;
+    float: right;
+    border: 1px #1ac056 solid;      
+}
+
+#contact .contact-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+    cursor: pointer;
 }
 
 /* section contact stop */
 
 
-    
+
     
     
 /* mój kod
@@ -351,5 +415,12 @@ figure .col-1-2-3:hover {
      z-index: -1; 
     
 }
+
+    display: inline-block;
+    width: 1000px;
+    float: right;
+    margin-top: 100px;
+}
+
 
 */
