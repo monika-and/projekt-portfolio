@@ -1,7 +1,7 @@
 /* General styles START */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 /* dodanie stylu fontu dla całej strony */
 
@@ -316,7 +316,15 @@ nav#menu > ul > li.menu-item a:hover {
 /* section contact stop */
 
 
+footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+}
 
+footer p {
+    margin: 0;
+}
     
     
 /* mój kod
