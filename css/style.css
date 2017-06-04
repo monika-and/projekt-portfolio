@@ -50,25 +50,25 @@ nav#menu {
     display: none;
 }
 
-nav#menu ul {
+#menu ul {
     margin: 0;
     text-align: right;
 
 }
 
-nav#menu > ul > li.menu-item {
+#menu > ul > li.menu-item {
     display:inline-block;
     padding: 25px;   
 }
 
-nav#menu > ul > li.menu-item a{
+#menu > ul > li.menu-item a{
     text-decoration: none;
     color: #1ac056 ;
     font-weight: 300;
     text-transform: lowercase;
 }
 
-nav#menu > ul > li.menu-item a:hover {
+#menu > ul > li.menu-item a:hover {
     color: #291f1a;  
 }
 
